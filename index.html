@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+div.relative{
+			
+	margin-left:350px;
+	margin-top: 75px;
+letter-spacing: 75px;
+		}
+	
+.TitleContacts{
+	text-align: center;
+	color: white;
+
+	margin-top: 75px;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin-left: 150px;
+}
+.title2{
+	margin-top:70px;font-family:"Monospace";
+	font-style:"Serif";
+}
+.Quotes{
+	margin-top: 100px;
+	color: white;
+
+}
+#TitleQuoteText{
+	font-family: 'Dancing Script', cursive;
+}
+
+	</style>
+	<title>saj</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	  
+	
+</head>
+<body>
+	<div class="hell">	
+		
+<a style="	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+				0 0 25px #03e9f4,
+				0 0 50px #03e9f4,
+				0 0 200px #03e9f4;" href="index.html">
+	<span>	</span>
+	<span>	</span>
+	<span>  </span>
+		<span>  </span>
+	Home
+
+</a>
+<a href="mytechlife.html">
+	<span>	</span>
+	<span>	</span>
+	<span>  </span>
+		<span>  </span>
+	My tech life
+
+</a><a href="projects.html">
+	<span>	</span>
+		<span>	</span>
+	<span>  </span>
+		<span>  </span>
+	Projetcs
+
+</a><a href="education.html">
+	<span>	</span>
+	<span>	</span>
+	<span>  </span>
+		<span>  </span>
+	Education
+
+</a>
+
+</div>
+ <div class="TitleText">
+      <h1>Mohammad Wazahatulla Baig</h1>
+    </div>
+     <div class="TitleCaptionDiv">
+      <h3 id="TitleCaptionText"></h3>
+    </div>
+
+    <br>
+    <script>
+    var i = 0;
+var txt = 'Web, Android Application Developer, ML Enthusiast'
+var speed = 70;
+
+window.onload =  function typeWriter() {
+  if (i < txt.length) {
+    var j=i;
+    document.getElementById("TitleCaptionText").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+
+
+}
+
+
+</script>
+<div class="relative">
+<a href="https://www.youtube.com/channel/UCGBA97KcHRiKTxudtwQBgxA?view_as=subscriber">	<img src="001-youtube.png" alt="Trulli" width="60" height="60"></a>
+<a href="https://www.facebook.com/JB.Aashiqi"><img src="facebook (2).png" alt="Trulli" width="60" height="60"></a>
+<a href="instagram.com"><img src="020-instagram.png" alt="Trulli" width="60" height="60"></a>
+<a href="https://www.linkedin.com/mynetwork/"><img src="019-linkedin.png" alt="Trulli" width="60" height="60"></a>
+<a href="snapchat.com"><img src="013-snapchat.png" alt="Trulli" width="60" height="60"></a>
+</div>
+ <div class="TitleContacts">
+      <h4><strong>Contact me?</strong></h4></bold>
+      <div class="title2">
+      <h5>akib9985868716@gmail.com | +91 99858 68716</h5>
+
+      <h5>Vijayawada, Andhra Pradesh, India</h5></div>
+    </div>
+    <div class="Quotes">
+    <script>
+    	var i = 0;
+var Quotes = [
+  "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time - Steve Jobs",
+  "Design is not just what it looks like and feels like. Design is how it works - Steve Jobs",
+  "Talk is cheap. Show me the code - Linus Torvalds",
+  "Another mode of accumulating power arises from lifting a weight and then allowing it to fall - Charles Babbage",
+  "Your most unhappy customers are your greatest source of learning - Bill Gates",
+  "Machines take me by surprise with great frequency - Alan Turing",
+  "Tell me and I forget.  Teach me and I remember.  Involve me and I learn - Benjamin Franklin"
+];
+
+  var index = Math.floor(Math.random() * 7);
+  document.getElementById("TitleQuoteText").innerHTML += Quotes[index];
+
+</script>
+
+</div>
+</body>
+</html>
+
